@@ -158,6 +158,7 @@ main::-webkit-scrollbar-thumb:hover {
   flex-direction: column;
   align-items: justify;
   justify-content: center;
+  padding-right: 15px;
 }
 
 .wine-name{
@@ -183,18 +184,19 @@ footer{
   position: sticky;
   bottom: 0;
   z-index: 10;
+  justify-content: space-around;
 }
 
 .a-icons{
   display: flex;
   justify-content: center;
+
 }
 
 
 .socials-icons{
-  width: 15%;
-  padding: 12px;
-  box-sizing: border-box;
+  width: 25px;
+  padding: 35% 40%;
   transition: all 0.75s ease;
 }
 
