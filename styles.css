@@ -51,7 +51,10 @@ header{
   gap: 10%;
 }
 
-.logo-container{
+.index-logo-container{
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  padding: 2px 12px;
   transition: all 0.75s ease;
 }
 .logo-wine-home-img{
@@ -60,13 +63,28 @@ header{
   cursor: pointer;
 }
 
-.logo-container:hover{
-  background-color: rgba(0, 0, 0, 0.15);
+.index-logo-container:hover{
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 60px;
-  padding: 0px 12px;
+  padding: 2px 12px;
 }
-.logo-container:active{
-  background-color: rgba(0, 0, 0, 0.45);
+.index-logo-container:active{
+  box-shadow: inset 0 0 4px 1px rgba(169, 169, 169, 0.25);
+}
+
+.payment-form-logo-contain{
+  border-radius: 25px;
+  padding: 2px 12px;
+  transition: all 0.75s ease;
+}
+
+.payment-form-logo-contain:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 60px;
+  padding: 2px 12px;
+}
+.payment-form-logo-contain:active{
+  box-shadow: inset 0 0 4px 1px rgba(169, 169, 169, 0.25);
 }
 
 .brand-name{
@@ -99,19 +117,24 @@ header{
   text-wrap: nowrap;
   padding: 10px 20px;
   transition: all 0.75s ease;
+  &.suscribe{
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+  }
 }
 
 .links-smt:hover{
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
 }
 
 .links-smt:active{
-  background-color: rgba(0, 0, 0, 0.45);
+  box-shadow: inset 0 0 4px 1px rgba(169, 169, 169, 0.25);
 }
 
-main{
+.index-main{
   display: flex;
+
   flex-direction: column;
   gap: 10%;
   overflow-y: scroll;
@@ -174,13 +197,37 @@ main::-webkit-scrollbar-thumb:hover {
   width: 75%;
 }
 
+.payment-form-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  height: 90%;
+  gap: 7.5%;
+}
+
+.input-field{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.inut-label{
+  justify-self: left;
+}
+
+input{
+  width: 200px;
+}
+
+
 footer{
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.20);
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
   border-radius: 50px;
-  padding: 0.25% 1.5%;
+  padding: 0.25% 2%;
   position: sticky;
   bottom: 0;
   z-index: 10;
@@ -191,13 +238,11 @@ footer{
 .a-icons{
   display: flex;
   justify-content: center;
-
 }
-
 
 .socials-icons{
   width: 23px;
-  padding: 35% 40%;
+  padding: 30% 40%;
   transition: all 0.75s ease;
 }
 
@@ -208,4 +253,5 @@ footer{
 
 .socials-icons:active{
   background-color: rgba(0, 0, 0, 0.45);
+  box-shadow: inset 0 0 2px 1px rgba(169, 169, 169, 0.25);
 }
