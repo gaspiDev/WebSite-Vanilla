@@ -1,1 +1,2 @@
 # WebSite-Vanilla
+Hola Gonza, mi entrega seria una landing page para un servicio mensual de entrega de vinos premiados por un torneo internacional (real, los links de redes sociales y about us son paginas de ellos). Esta el home en el icono de vino y la otra pagina dentro del sitio seria el formulario (no validado con js) para la suscrupcion en si. Cualquier recomendacion viene bien.

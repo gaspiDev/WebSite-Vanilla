@@ -274,8 +274,13 @@ input{
   padding: 4px;
   background-color: rgb(116, 48, 70);
   border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.7s;
 }
 
+.btn-getIt:active{
+  background-color: rgb(149, 61, 89);
+}
 footer{
   display: flex;
   align-items: center;
