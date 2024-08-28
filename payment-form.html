@@ -23,42 +23,45 @@
       </div>
     </header>
     <main class="payment-form-main" tabindex="-1">
-      <div class="input-field">
-        <label for="" class="inut-label" >Nombre:</label>
-        <input type="text" name="" id="">
+      <div class="currency-container">
+        <h2 class="payment-h2">The best monthly selection of wines... Only for<span class="currency"> $49.99 USD</span></h2>
+        <button class="btn-currency">USD / ARS</button>
       </div>
-      <div class="input-field">
-        <label for="" class="inut-label">Apellido:</label>
-        <input type="text" name="" id="">
-      </div>
-      <div class="input-field">
-        <label for="" class="inut-label">Birth Date:</label>
-        <input type="text" name="" id="">
-      </div>
-      <div class="input-field">
-        <label for="" class="inut-label">Email:</label>
-        <input type="text" name="" id="">
-      </div>
-      <div class="input-field">
-        <label for="" class="inut-label">Telefono:</label>
-        <input type="text" name="" id="">
-      </div>
-      <div class="input-field">
-        <label for="" class="inut-label">Adress:</label>
-        <input type="text" name="" id="">
-      </div>
-      <div class="input-field">
-        <label for="" class="inut-label">Payment Method:</label>
-        <input list="option-list" id="options" name="options">
-        <datalist id="option-list">
-        <option value="Cash on Delivery">
-        <option value="Credit Card">
-        <option value="Zelle">
-      </div>
-      <div class="input-field">
-        <label for="" class="inut-label">Agree to Terms and Conditions:</label>
-        <input type="checkbox" name="" id="" style="vertical-align: middle; width: unset !important;">
-      </div>
+      <form class="form-container">
+        <div class="input-field">
+          <label for="" class="inut-label" >Full Name:</label>
+          <input required type="text" name="" id="">
+        </div>
+        <div class="input-field">
+          <label for="" class="inut-label">Birth Date:</label>
+          <input required type="date" name="" id="">
+        </div>
+        <div class="input-field">
+          <label for="" class="inut-label">Email:</label>
+          <input type="text" name="" id="">
+        </div>
+        <div class="input-field">
+          <label for="" class="inut-label">Phone:</label>
+          <input type="text" name="" id="">
+        </div>
+        <div class="input-field">
+          <label for="" class="inut-label">Adress:</label>
+          <input required type="text" name="" id="">
+        </div>
+        <div class="input-field">
+          <label for="" class="inut-label">Pay Method:</label>
+          <input required list="option-list" id="options" name="options">
+          <datalist id="option-list">
+          <option value="Cash on Delivery">
+          <option value="Credit Card">
+          <option value="Zelle">
+        </div>
+        <div class="input-field">
+          <label for="" class="inut-label">Agree to Terms and Conditions:</label>
+          <input required type="checkbox" name="" id="" style="vertical-align: middle; width: unset !important;">
+        </div>
+        <button class="btn-getIt">Suscribe</button>
+      </form>
     </main>
     <footer>
       <a class="a-icons" href="https://www.linkedin.com/company/sommeliers-choice-awards/" target="_blank"><img class="socials-icons" src="./images/linkedin-icon.png" alt="Linkedin"></a>
